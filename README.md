@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🔮 Promptology
+An AI-driven platform for curating and managing effective prompts tailored to specific fields or topics, empowering users to generate high-quality AI responses.
 
-## Getting Started
+## 🛠️ Project Overview
+ - Promptology is a Next.js-powered web application that helps users design and save the best prompts for AI. By focusing on specific topics or fields, users can refine their interactions with AI models, ensuring precise and valuable outputs.
 
-First, run the development server:
+ - This project highlights expertise in frontend development, backend design, and AI-centric workflows while emphasizing user customization and efficiency.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
+### Prompt Creation and Management:
+Users can craft, edit, and save prompts organized by topics or fields.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Authentication:
+Secure login and registration powered by NextAuth.js.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Responsive UI:
+A modern and intuitive interface styled with TailwindCSS.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Database Integration:
+Prompts and user data are stored and managed using MongoDB with Mongoose for seamless schema management.
 
-## Learn More
+### Scalable Design:
+Built with Next.js to ensure high performance and scalability.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🔧 Tech Stack
+   - Frontend :
+     - Next.js
+     - React
+     - TailwindCSS
+     - React Icons
+   - Backend :
+     - Node.js
+     - Next.js API Routes
+     - MongoDB (via Mongoose)
+     - bcrypt (for password encryption)
+     - NextAuth.js
